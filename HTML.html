@@ -36,4 +36,21 @@
                 <p> <a href="https://github.com/PHANTOMII79/HTML_Practice.git">Click me </a> to see my gitHub
                 in this page and <a href="https://github.com/PHANTOMII79/HTML_Practice.git" target="_blank"> Click
                 me</a> if you want to see my gitHub in new tap.</p>
-</html>
+        <h1> Form</h1>
+            <form action="http://httpbin.org/get" method="get">
+                <pre>
+                    username : <input type="text" name="username" value="" size="19" maxlength="24"/>
+                    Password : <input type="text" name="Password" value="" size="12" maxlength="15"/>
+                    Tel:       <input type="tel" name="Tel" value="" size="11" maxlength="12"/>
+                    text :     <textarea name="text" cols="30" rows="5"> PLZ write your complment.</textarea>
+                               <input type="submit" value="submit"/>
+                </pre>
+            </form>
+            <form action="http://httpbin.org/get" 
+            method="post"
+            enctype="multipart/form-data"
+            >
+            <input type="file" name="my file" accept="Image/*">
+            <input type="submit" value="submit">
+            </form>
+        </html>
